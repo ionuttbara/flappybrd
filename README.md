@@ -60,10 +60,10 @@ The player's score is displayed during the game, and the high score is shown at 
 The game follows a continuous loop where events are processed, and the game state is updated and rendered. The loop handles user input, bird movement, pipe generation, collision detection, and scoring.  
 
 ## 5. Controls
-<li>
-<ol> *Spacebar*: Flap the bird's wings to navigate through pipes.  
-	<ol> Press spacebar to start a new game after a game over.  
-	</li>
+
+<li> *Spacebar*: Flap the bird's wings to navigate through pipes.  
+<li> Press spacebar to start a new game after a game over.  
+
 
 ## 6. Conclusion
  You've successfully explored the documentation for the FlappyBird project. Have fun playing the game and challenge yourself to achieve a high score! If you encounter any issues or have suggestions for improvement, feel free to contribute to the GitHub repository.  
