@@ -6,9 +6,9 @@ Welcome to the documentation for the FlappyBird project! This project is a simpl
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Installation](#installation)
-3. [Game Components](#game-components)
+1. [Overview](#1-overview)
+2. [Installation](#2-installation)
+3. [Game Components](#3-game-components)
    - [Display](#display)
    - [Background](#background)
    - [Bird](#bird)
@@ -16,9 +16,9 @@ Welcome to the documentation for the FlappyBird project! This project is a simpl
    - [Sound Effects](#sound-effects)
    - [Font](#font)
    - [Score](#score)
-4. [Game Loop](#game-loop)
-5. [Controls](#controls)
-6. [Conclusion](#conclusion)
+4. [Game Loop](#4-game-loop)
+5. [Controls](#5-controls)
+6. [Conclusion](#6-conclusion)
 
 ## 1. Overview
 Welcome to the documentation for the FlappyBird project! This project is a simple implementation of the classic Flappy Bird game using Python and the Pygame library.
