@@ -18,7 +18,6 @@ Welcome to the documentation for the FlappyBird project! This project is a simpl
 ## 2. Installation
 Before running the game, download the game from release section. Un-Zip and run Flappy-Bird 3D.exe.
 Or if you want to analyze the code clone and open it with Unity 2022.3.f1.
-To run the game, execute the provided Python script:
 
 ## 3. Game Components
 
