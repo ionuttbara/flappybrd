@@ -15,7 +15,7 @@ E:/Projects/Development/GitHub Repos/Listed Repos/flappybrd
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53546
+53829
 Successfully changed project path to: E:/Projects/Development/GitHub Repos/Listed Repos/flappybrd
 E:/Projects/Development/GitHub Repos/Listed Repos/flappybrd
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ E:/Projects/Development/GitHub Repos/Listed Repos/flappybrd
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7056] Host "[IP] 192.168.0.250 [Port] 0 [Flags] 2 [Guid] 2155130005 [EditorId] 2155130005 [Version] 1048832 [Id] WindowsEditor(7,IBBFA506II) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9720] Host "[IP] 192.168.0.250 [Port] 0 [Flags] 2 [Guid] 503887969 [EditorId] 503887969 [Version] 1048832 [Id] WindowsEditor(7,IBBFA506II) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7056] Host "[IP] 192.168.0.250 [Port] 0 [Flags] 2 [Guid] 2155130005 [EditorId] 2155130005 [Version] 1048832 [Id] WindowsEditor(7,IBBFA506II) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9720] Host "[IP] 192.168.0.250 [Port] 0 [Flags] 2 [Guid] 503887969 [EditorId] 503887969 [Version] 1048832 [Id] WindowsEditor(7,IBBFA506II) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 3.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003067 seconds.
-- Loaded All Assemblies, in  0.381 seconds
+Registered in 0.002727 seconds.
+- Loaded All Assemblies, in  0.368 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.326 seconds
-Domain Reload Profiling: 707ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.325 seconds
+Domain Reload Profiling: 693ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (97ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (83ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (145ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (139ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (327ms)
+	FinalizeReload (326ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (260ms)
+		SetupLoadedEditorAssemblies (247ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (181ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,51 +114,51 @@ Domain Reload Profiling: 707ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.639 seconds
-Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.614 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.533 seconds
-Domain Reload Profiling: 1173ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  0.524 seconds
+Domain Reload Profiling: 1138ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (402ms)
-		LoadAssemblies (216ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (217ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (244ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (220ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (205ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (534ms)
+	FinalizeReload (524ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
+		SetupLoadedEditorAssemblies (361ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (281ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 6.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1544 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 2002.
 Memory consumption went from 93.7 MB to 92.3 MB.
-Total: 24.834600 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.115600 ms MarkObjects: 23.680600 ms  DeleteObjects: 0.769800 ms)
+Total: 143.368500 ms (FindLiveObjects: 3.028000 ms CreateObjectMapping: 2.672800 ms MarkObjects: 135.170900 ms  DeleteObjects: 2.494600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -174,65 +174,388 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10714.859907 seconds.
-  path: Assets/Resources/Sound Effects/Die.wav
-  artifactKey: Guid(4db29b842ffeb8e4c9075fd7d0ffea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Sound Effects/Die.wav using Guid(4db29b842ffeb8e4c9075fd7d0ffea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6be4bc6076414b261ebd8afb9261748') in 0.202584 seconds
+  Time since last request: 11615.395750 seconds.
+  path: Assets/MagicaVoxel Tools Free/Editor/TextureUtility.cs
+  artifactKey: Guid(64e499de6a6ab0443844e363a99f3d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Editor/TextureUtility.cs using Guid(64e499de6a6ab0443844e363a99f3d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dac9f9f8c3e90aa7d9c0841f174d76cb') in 0.397677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MagicaVoxel Tools Free/Editor/CreateCombinedMesh.cs
+  artifactKey: Guid(88ad1f394e57a57478addd51917f7459) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Editor/CreateCombinedMesh.cs using Guid(88ad1f394e57a57478addd51917f7459) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61dd0df448a33b3cf372b474a2845899') in 0.007336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/MagicaVoxel Tools Free/Resources/Shaders/Voxel.cginc
+  artifactKey: Guid(3f8d041bcba1f4276a6dee58ca5540bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Resources/Shaders/Voxel.cginc using Guid(3f8d041bcba1f4276a6dee58ca5540bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7641a08fa8c64bfe1f8eaaacb8d3da8') in 0.005999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Voxels/Mesh/Gunship_Parts_Body.asset
+  artifactKey: Guid(945abd6fd1272ae44b0c5d163366cab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Voxels/Mesh/Gunship_Parts_Body.asset using Guid(945abd6fd1272ae44b0c5d163366cab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c39a5fc60774a9d5ad7fa8e67074dd90') in 0.030428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MagicaVoxel Tools Free/Resources/Materials/ground.mat
+  artifactKey: Guid(88ed4991deaa16244b61e4917b525ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Resources/Materials/ground.mat using Guid(88ed4991deaa16244b61e4917b525ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '735b8b59d867cb486140da7f85f8faeb') in 0.028037 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Scripts/HeliCamera.cs
+  artifactKey: Guid(1506616f857cf8044bb2b2870c9e0fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Scripts/HeliCamera.cs using Guid(1506616f857cf8044bb2b2870c9e0fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e1840c06deccf4884e2c20002820a84') in 0.003947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Apache/Gunship.fbx
+  artifactKey: Guid(eb211addfb6e35b48a7ece92a39f0615) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Apache/Gunship.fbx using Guid(eb211addfb6e35b48a7ece92a39f0615) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93dcf9ab5362806ab9d0a007bb6818a1') in 0.060621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MagicaVoxel Tools Free/Editor/MagicaVoxelImporter.cs
+  artifactKey: Guid(0ed0961c831fc8041ae7879a35f2e33c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Editor/MagicaVoxelImporter.cs using Guid(0ed0961c831fc8041ae7879a35f2e33c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d30ef96b09c83922c2ce84b94c895b7') in 0.005899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Scripts/HeliRotate.cs
+  artifactKey: Guid(37f81c41d9660924293c8fc0c1a505c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Scripts/HeliRotate.cs using Guid(37f81c41d9660924293c8fc0c1a505c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68a3e53dceb1b6f42b93c57de4ba07cf') in 0.003877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Models/Bird/bird-1.obj
+  artifactKey: Guid(b700602dba6424344bc00661c9f0eab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Bird/bird-1.obj using Guid(b700602dba6424344bc00661c9f0eab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '022cc8e31d5fd45ffb6e84d683237dbb') in 0.018164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MagicaVoxel Tools Free/Resources/Shaders/Voxelizer.compute
+  artifactKey: Guid(5fdfd9c0be0cd42fca24f981cc152dd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Resources/Shaders/Voxelizer.compute using Guid(5fdfd9c0be0cd42fca24f981cc152dd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dedbb612b4978c45b9c92e21618b286') in 0.004423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/PlayerInput.cs
+  artifactKey: Guid(61e87236cfe2f67428101effabb00d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerInput.cs using Guid(61e87236cfe2f67428101effabb00d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a6ad930730f5dac7b7695245983137b') in 0.004221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Models/Bird/bird-0.obj
+  artifactKey: Guid(9a9e65e1df6a5024ab7350e3281abf3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Bird/bird-0.obj using Guid(9a9e65e1df6a5024ab7350e3281abf3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cc9704633a8a6e7fbf94b2d83d582ea') in 0.017878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Voxels/Prefabs/Carrier_vox.prefab
+  artifactKey: Guid(5a5bca8b8ebfd6b4fb3cd8aed74a9496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Voxels/Prefabs/Carrier_vox.prefab using Guid(5a5bca8b8ebfd6b4fb3cd8aed74a9496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '961c08b368276a467588b25cd7d5e0b1') in 0.023178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Shaders/LowPolyWater/LowPolyWater.shader
+  artifactKey: Guid(62c4b9a8441c640a892d4019d8ae3e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Shaders/LowPolyWater/LowPolyWater.shader using Guid(62c4b9a8441c640a892d4019d8ae3e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '103058b58eee1147d406755ee106ca06') in 0.014680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MagicaVoxel Tools Free/Editor/PreviewVoxelMesh.cs
+  artifactKey: Guid(d9bb061bf6736f943a48dc3697a50752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Editor/PreviewVoxelMesh.cs using Guid(d9bb061bf6736f943a48dc3697a50752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1654c7ea67622e863aed44188f8d174a') in 0.004412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Animations/Player-Move.anim
+  artifactKey: Guid(6e6d40f3715ac8e44b27403aae4daa3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Animations/Player-Move.anim using Guid(6e6d40f3715ac8e44b27403aae4daa3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1574315b9c075fc1d74bedb5f039079b') in 0.006006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Shaders/LowPolyWater/foam-distortion-001.png
+  artifactKey: Guid(cd460ee4ac5c1e746b7a734cc7cc64dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Shaders/LowPolyWater/foam-distortion-001.png using Guid(cd460ee4ac5c1e746b7a734cc7cc64dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81e64035400859b61b8d354c6b91380e') in 0.047390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Apache/512K_HellfireTXTR.tif
+  artifactKey: Guid(6cfba64a169fbb0458590f6d8763cdb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Apache/512K_HellfireTXTR.tif using Guid(6cfba64a169fbb0458590f6d8763cdb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62a455889e4cbeefced1531f8b595e19') in 0.015263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Models/Tube/top_tube.mtl
+  artifactKey: Guid(fb21fc5366e359b4f918eaf52114326a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Tube/top_tube.mtl using Guid(fb21fc5366e359b4f918eaf52114326a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cdb706042f84e306fba84b2542d89f6') in 0.003187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Voxels/Carrier.vox
+  artifactKey: Guid(86f1bd43510cb2748bce27635166d2e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Voxels/Carrier.vox using Guid(86f1bd43510cb2748bce27635166d2e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b36cb1afc91e95e9c32237029489b67c') in 0.007637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/Level1_Profiles/Main Camera Profile.asset
+  artifactKey: Guid(d8032115f8848a544bf998a9c8efc093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level1_Profiles/Main Camera Profile.asset using Guid(d8032115f8848a544bf998a9c8efc093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5afd05f9d6c9776c4d3724c0be5e26d7') in 0.021567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Materials/Water.mat
+  artifactKey: Guid(8a4232adb9fd1fd4082ae16429535c64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Materials/Water.mat using Guid(8a4232adb9fd1fd4082ae16429535c64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3197b89790a6baf170f1c69482a81aa4') in 0.006950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Models/Bird/bird-1.mtl
+  artifactKey: Guid(20821626bf40b524a9ff2122ea74dc78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Bird/bird-1.mtl using Guid(20821626bf40b524a9ff2122ea74dc78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '335f8e7d8d0a65c7dfe61b368fb67b9c') in 0.003848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/MagicaVoxel Tools Free/Resources/Particles/DefaultVoxelParticle.prefab
+  artifactKey: Guid(bfc4582c3bdf7004a9ff869338400732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Resources/Particles/DefaultVoxelParticle.prefab using Guid(bfc4582c3bdf7004a9ff869338400732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bc0ed6b40fc30d0638249f2415e6a1d') in 0.089304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Tutorial_Final.unity
+  artifactKey: Guid(a4fd44e26af2545419d9a065b6293451) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Tutorial_Final.unity using Guid(a4fd44e26af2545419d9a065b6293451) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58f93fa9672d84395b787568e05303ac') in 0.003286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Resources/Models/cloud/cloud.png
+  artifactKey: Guid(d47d7acec01380b498972ae7792e8d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/cloud/cloud.png using Guid(d47d7acec01380b498972ae7792e8d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06ce577a0eeb5ec3d78867f9b627f883') in 0.015198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(6a700ca16c88be34ca513404c93a806b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player.cs using Guid(6a700ca16c88be34ca513404c93a806b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db46df45896e59a1b258aab8a1e91c4d') in 0.003406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Tutorial_Start.unity
+  artifactKey: Guid(88ea720db8af3fb489166a4c41b55cf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Tutorial_Start.unity using Guid(88ea720db8af3fb489166a4c41b55cf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14b46f6cb4db70a406f21c92ecfa3fa8') in 0.003678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MagicaVoxel Tools Free/Resources/Palettes/pal2.png
+  artifactKey: Guid(5b0ccc7ebdfedc24e95e5208e7e55a64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Resources/Palettes/pal2.png using Guid(5b0ccc7ebdfedc24e95e5208e7e55a64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48bc3f8f053bf3a5af5003b8fa161746') in 0.016136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MagicaVoxel Tools Free/Scripts/VoxelData.cs
+  artifactKey: Guid(a17afe7d071127948871930ba609c952) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Scripts/VoxelData.cs using Guid(a17afe7d071127948871930ba609c952) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '060c050800382a1a3c62f81af0a71821') in 0.005139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Models/cloud/cloud.mtl
+  artifactKey: Guid(8d733587a902e3549ad6cac2f5bfd694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/cloud/cloud.mtl using Guid(8d733587a902e3549ad6cac2f5bfd694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3265f45d362760ff0cfda921df05a25') in 0.003225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MagicaVoxel Tools Free/Resources/Textures/Icon.png
+  artifactKey: Guid(14f60378a6eb8b54bb53fe89782f9d52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Resources/Textures/Icon.png using Guid(14f60378a6eb8b54bb53fe89782f9d52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a52d855f1f119b9f69c7a5039f773d10') in 0.014221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Voxels/Mesh/Gunship_Parts_Rotor.asset
+  artifactKey: Guid(1606cff826af4ac4180366ce6cfef3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Voxels/Mesh/Gunship_Parts_Rotor.asset using Guid(1606cff826af4ac4180366ce6cfef3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97b5558fc676e036c29eae6224824772') in 0.010937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(c84183c36450beb4796cb0d2c9366750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Spawner.cs using Guid(c84183c36450beb4796cb0d2c9366750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4fffd68622ac561512bc5c7478c6627') in 0.003876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Models/Ground/ground.mtl
+  artifactKey: Guid(30360bf4a972ca844920ceec0da3635b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Ground/ground.mtl using Guid(30360bf4a972ca844920ceec0da3635b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ff9774c9b4c5a164cc45ac42dc01de8') in 0.002868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Models/Tube/bottom_tube.png
+  artifactKey: Guid(4bded878bcfecc747aaf8a516d8e1fd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Tube/bottom_tube.png using Guid(4bded878bcfecc747aaf8a516d8e1fd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14222822d2240cba991829c685b01dbf') in 0.017240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MagicaVoxel Tools Free/Editor/OptimizedVoxelMesh.cs
+  artifactKey: Guid(3919034b883c1db40abc9a20eca364aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Editor/OptimizedVoxelMesh.cs using Guid(3919034b883c1db40abc9a20eca364aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fb67fb459600aba3098c9fe69a0f56d') in 0.004242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MagicaVoxel Tools Free/Demo/Voxels/Prefabs/Gunship_Parts_Body.prefab
+  artifactKey: Guid(62b21d660cdcea9448c346c4c9df26c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicaVoxel Tools Free/Demo/Voxels/Prefabs/Gunship_Parts_Body.prefab using Guid(62b21d660cdcea9448c346c4c9df26c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac1669f5c2386cabcd1689983f9b7e56') in 0.008717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/Stats.cs
+  artifactKey: Guid(2b9ad71a094191b49ba03080b427ac1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Stats.cs using Guid(2b9ad71a094191b49ba03080b427ac1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e00d4a22af6e1aa4f545d06e8bb5a052') in 0.003945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Models/Tube/top_tube.png
+  artifactKey: Guid(c447688bd7fac0a48ab728d74725e0ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Models/Tube/top_tube.png using Guid(c447688bd7fac0a48ab728d74725e0ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f01f0027f08b62f15103bee0adc0295') in 0.014137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.548 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.682 seconds
-Domain Reload Profiling: 1230ms
-	BeginReloadAssembly (129ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (191ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (205ms)
-			TypeCache.Refresh (202ms)
-				TypeCache.ScanAssembly (192ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (682ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (368ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (285ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 4.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 2015.
-Memory consumption went from 89.7 MB to 88.3 MB.
-Total: 17.205200 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.077000 ms MarkObjects: 16.240100 ms  DeleteObjects: 0.615300 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.4 MB). Loaded Objects now: 2003.
+Memory consumption went from 63.4 MB to 62.0 MB.
+Total: 25.756200 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.100200 ms MarkObjects: 24.921600 ms  DeleteObjects: 0.435200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -243,79 +566,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.487 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.589 seconds
-Domain Reload Profiling: 1076ms
-	BeginReloadAssembly (119ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (299ms)
-		LoadAssemblies (173ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (169ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (589ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (305ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.4 MB). Loaded Objects now: 2018.
-Memory consumption went from 90.0 MB to 88.6 MB.
-Total: 16.789300 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.110500 ms MarkObjects: 15.799500 ms  DeleteObjects: 0.569200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (1.4 MB). Loaded Objects now: 2018.
-Memory consumption went from 67.0 MB to 65.6 MB.
-Total: 7.586900 ms (FindLiveObjects: 0.276100 ms CreateObjectMapping: 0.081900 ms MarkObjects: 6.623900 ms  DeleteObjects: 0.602200 ms)
+Unloading 14 unused Assets / (1.4 MB). Loaded Objects now: 2003.
+Memory consumption went from 63.6 MB to 62.2 MB.
+Total: 6.663400 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.075800 ms MarkObjects: 5.833100 ms  DeleteObjects: 0.465600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
