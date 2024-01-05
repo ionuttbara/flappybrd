@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the documentation for the FlappyBird project! This project is a simple implementation of the classic Flappy Bird game using Python and the Pygame library.
+Welcome to the documentation for the FlappyBird project! This project is a simple implementation of the classic Flappy Bird written in 3D Unity.
 
 ## Table of Contents
 
@@ -11,40 +11,31 @@ Welcome to the documentation for the FlappyBird project! This project is a simpl
 3. [Game Components](#3-game-components)
 4. [Game Loop](#4-game-loop)
 5. [Controls](#5-controls)
-6. [Conclusion](#6-conclusion)
 
 ## 1. Overview
-Welcome to the documentation for the FlappyBird project! This project is a simple implementation of the classic Flappy Bird game using Python and the Pygame library.
+Welcome to the documentation for the FlappyBird project! This project is a simple implementation of the classic Flappy Bird game using 3D Unity.
 
 ## 2. Installation
-Before running the game, make sure you have Python and Pygame installed. You can install Pygame using the following command:
-```bash
-pip install pygame
-```
-
+Before running the game, download the game from release section. Un-Zip and run Flappy-Bird 3D.exe.
+Or if you want to analyze the code clone and open it with Unity 2022.3.f1.
 To run the game, execute the provided Python script:
-```
-python flapybird.py
-```
+
 ## 3. Game Components
 
 *Display*  
 The game window has a width of 280 pixels and a height of 512 pixels.  
 
 *Background*  
-The game features a background image loaded from "assets/images/sprites/Background.png".  
+Made an scene which it has 3D clouds, barrels and background components.  
 
 *Bird*  
-The bird has three frames for animation: Bird_down, Bird_mid, and Bird_up. The bird's movement is controlled by the spacebar.  
+The bird was reimplemented with animation, texture and effects such when crashes from barrel as exemple.
 
 *Pipes*  
 Pipes are created, drawn, and moved to create obstacles for the bird. They spawn at random heights.  
 
 *Sound Effects*  
 The game includes sound effects for flapping wings, collisions, and scoring points.  
-
-*Font*  
-A custom font ("04B_19.ttf") is used to display the score and high score.  
 
 *Score*  
 The player's score is displayed during the game, and the high score is shown at the game over screen.  
@@ -56,7 +47,3 @@ The game follows a continuous loop where events are processed, and the game stat
 
 <li> *Spacebar*: Flap the bird's wings to navigate through pipes.  
 <li> Press spacebar to start a new game after a game over.  
-
-
-## 6. Conclusion
- You've successfully explored the documentation for the FlappyBird project. Have fun playing the game and challenge yourself to achieve a high score! If you encounter any issues or have suggestions for improvement, feel free to contribute to the GitHub repository.  
